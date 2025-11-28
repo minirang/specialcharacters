@@ -65,7 +65,14 @@
                     transform:scale(0.8);
                     transform-origin:top center;
                     width:125%;
-            }
+                }
+                .logo{
+                    width:90px;
+                    height:auto;
+                }
+                .title{
+                    font-size:25px;
+                }
                 .top-container{
                     transform:scale(0.6);
                 }
@@ -92,362 +99,31 @@
         </span>
         <h1>
             <div class="button-container">
-                <!--좀 노가다이긴 한데 자바스크립트를 잘 몰라서 ㅋㅋㅋ-->
                 <h2>한글 자음</h2>
-                <button onclick="navigator.clipboard.writeText('ㄱ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ㄱ</button>
-                <button onclick="navigator.clipboard.writeText('ㄴ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ㄴ</button>
-                <button onclick="navigator.clipboard.writeText('ㄷ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ㄷ</button>
-                <button onclick="navigator.clipboard.writeText('ㄹ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ㄹ</button>
-                <button onclick="navigator.clipboard.writeText('ㅁ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ㅁ</button>
-                <button onclick="navigator.clipboard.writeText('ㅂ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ㅂ</button>
-                <button onclick="navigator.clipboard.writeText('ㅅ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ㅅ</button>
-                <button onclick="navigator.clipboard.writeText('ᄼ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᄼ</button>
-                <button onclick="navigator.clipboard.writeText('ᄾ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᄾ</button>
-                <button onclick="navigator.clipboard.writeText('ㅈ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ㅈ</button>
-                <button onclick="navigator.clipboard.writeText('ᅎ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᅎ</button>
-                <button onclick="navigator.clipboard.writeText('ᅐ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᅐ</button>
-                <button onclick="navigator.clipboard.writeText('ㅊ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ㅊ</button>
-                <button onclick="navigator.clipboard.writeText('ᅔ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᅔ</button>
-                <button onclick="navigator.clipboard.writeText('ᅕ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᅕ</button>
-                <button onclick="navigator.clipboard.writeText('ㅿ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ㅿ</button>
-                <button onclick="navigator.clipboard.writeText('ㆁ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ㆁ</button>
-                <button onclick="navigator.clipboard.writeText('ㆆ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ㆆ</button>
-                <button onclick="navigator.clipboard.writeText('ㅋ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ㅋ</button>
-                <button onclick="navigator.clipboard.writeText('ㅌ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ㅌ</button>
-                <button onclick="navigator.clipboard.writeText('ㅍ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ㅍ</button>
-                <button onclick="navigator.clipboard.writeText('ㅎ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ㅎ</button>
-                <button onclick="navigator.clipboard.writeText('ᇺ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᇺ</button>
-                <button onclick="navigator.clipboard.writeText('ᅚ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᅚ</button>
-                <button onclick="navigator.clipboard.writeText('ᇃ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᇃ</button>
-                <button onclick="navigator.clipboard.writeText('ᇻ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᇻ</button>
-                <button onclick="navigator.clipboard.writeText('ᇄ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᇄ</button>
-                <button onclick="navigator.clipboard.writeText('ᇼ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᇼ</button>
-                <button onclick="navigator.clipboard.writeText('ᇽ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᇽ</button>
-                <button onclick="navigator.clipboard.writeText('ᇾ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᇾ</button>
-                <button onclick="navigator.clipboard.writeText('ᄓ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᄓ</button>
-                <button onclick="navigator.clipboard.writeText('ㅥ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ㅥ</button>
-                <button onclick="navigator.clipboard.writeText('ㅦ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ㅦ</button>
-                <button onclick="navigator.clipboard.writeText('ퟋ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ퟋ</button>
-                <button onclick="navigator.clipboard.writeText('ᄖ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᄖ</button>
-                <button onclick="navigator.clipboard.writeText('ㅧ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ㅧ</button>
-                <button onclick="navigator.clipboard.writeText('ㅨ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ㅨ</button>
-                <button onclick="navigator.clipboard.writeText('ퟌ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ퟌ</button>
-                <button onclick="navigator.clipboard.writeText('ᇉ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᇉ</button>
-                <button onclick="navigator.clipboard.writeText('ᄗ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᄗ</button>
-                <button onclick="navigator.clipboard.writeText('ퟎ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ퟎ</button>
-                <button onclick="navigator.clipboard.writeText('ᇋ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᇋ</button>
-                <button onclick="navigator.clipboard.writeText('ꥠ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ꥠ</button>
-                <button onclick="navigator.clipboard.writeText('ꥡ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ꥡ</button>
-                <button onclick="navigator.clipboard.writeText('ꥢ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ꥢ</button>
-                <button onclick="navigator.clipboard.writeText('ퟑ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ퟑ</button>
-                <button onclick="navigator.clipboard.writeText('ꥣ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ꥣ</button>
-                <button onclick="navigator.clipboard.writeText('ퟓ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ퟓ</button>
-                <button onclick="navigator.clipboard.writeText('ퟔ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ퟔ</button>
-                <button onclick="navigator.clipboard.writeText('ꥥ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ꥥ</button>
-                <button onclick="navigator.clipboard.writeText('ㅩ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ㅩ</button>
-                <button onclick="navigator.clipboard.writeText('ퟖ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ퟖ</button>
-                <button onclick="navigator.clipboard.writeText('ᄘ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᄘ</button>
-                <button onclick="navigator.clipboard.writeText('ㅪ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ㅪ</button>
-                <button onclick="navigator.clipboard.writeText('ꥧ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ꥧ</button>
-                <button onclick="navigator.clipboard.writeText('ᇏ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᇏ</button>
-                <button onclick="navigator.clipboard.writeText('ᄙ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᄙ</button>
-                <button onclick="navigator.clipboard.writeText('ퟗ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ퟗ</button>
-                <button onclick="navigator.clipboard.writeText('ᇑ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᇑ</button>
-                <button onclick="navigator.clipboard.writeText('ᇒ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᇒ</button>
-                <button onclick="navigator.clipboard.writeText('ퟘ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ퟘ</button>
-                <button onclick="navigator.clipboard.writeText('ퟙ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ퟙ</button>
-                <button onclick="navigator.clipboard.writeText('ꥪ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ꥪ</button>
-                <button onclick="navigator.clipboard.writeText('ㅫ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ㅫ</button>
-                <button onclick="navigator.clipboard.writeText('ퟚ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ퟚ</button>
-                <button onclick="navigator.clipboard.writeText('ᇔ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᇔ</button>
-                <button onclick="navigator.clipboard.writeText('ᇕ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᇕ</button>
-                <button onclick="navigator.clipboard.writeText('ᇖ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᇖ</button>
-                <button onclick="navigator.clipboard.writeText('ㅬ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ㅬ</button>
-                <button onclick="navigator.clipboard.writeText('ퟛ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ퟛ</button>
-                <button onclick="navigator.clipboard.writeText('ꥭ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ꥭ</button>
-                <button onclick="navigator.clipboard.writeText('ᇘ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᇘ</button>
-                <button onclick="navigator.clipboard.writeText('ㅭ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ㅭ</button>
-                <button onclick="navigator.clipboard.writeText('ퟜ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ퟜ</button>
-                <button onclick="navigator.clipboard.writeText('ᄛ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᄛ</button>
-                <button onclick="navigator.clipboard.writeText('ᇚ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᇚ</button>
-                <button onclick="navigator.clipboard.writeText('ퟞ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ퟞ</button>
-                <button onclick="navigator.clipboard.writeText('ퟟ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ퟟ</button>
-                <button onclick="navigator.clipboard.writeText('ꥰ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ꥰ</button>
-                <button onclick="navigator.clipboard.writeText('ᇛ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᇛ</button>
-                <button onclick="navigator.clipboard.writeText('ퟠ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ퟠ</button>
-                <button onclick="navigator.clipboard.writeText('ㅮ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ㅮ</button>
-                <button onclick="navigator.clipboard.writeText('ퟡ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ퟡ</button>
-                <button onclick="navigator.clipboard.writeText('ㅯ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ㅯ</button>
-                <button onclick="navigator.clipboard.writeText('ᇞ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᇞ</button>
-                <button onclick="navigator.clipboard.writeText('ㅰ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ㅰ</button>
-                <button onclick="navigator.clipboard.writeText('ퟢ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ퟢ</button>
-                <button onclick="navigator.clipboard.writeText('ᇠ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᇠ</button>
-                <button onclick="navigator.clipboard.writeText('ᇡ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᇡ</button>
-                <button onclick="navigator.clipboard.writeText('ㅱ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ㅱ</button>
-                <button onclick="navigator.clipboard.writeText('ㅲ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ㅲ</button>
-                <button onclick="navigator.clipboard.writeText('ᄟ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᄟ</button>
-                <button onclick="navigator.clipboard.writeText('ㅳ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ㅳ</button>
-                <button onclick="navigator.clipboard.writeText('ᇣ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᇣ</button>
-                <button onclick="navigator.clipboard.writeText('ퟤ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ퟤ</button>
-                <button onclick="navigator.clipboard.writeText('ퟥ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ퟥ</button>
-                <button onclick="navigator.clipboard.writeText('ㅴ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ㅴ</button>
-                <button onclick="navigator.clipboard.writeText('ㅵ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ㅵ</button>
-                <button onclick="navigator.clipboard.writeText('ᄤ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᄤ</button>
-                <button onclick="navigator.clipboard.writeText('ᄥ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᄥ</button>
-                <button onclick="navigator.clipboard.writeText('ᄦ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᄦ</button>
-                <button onclick="navigator.clipboard.writeText('ꥲ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ꥲ</button>
-                <button onclick="navigator.clipboard.writeText('ㅶ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ㅶ</button>
-                <button onclick="navigator.clipboard.writeText('ᄨ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᄨ</button>
-                <button onclick="navigator.clipboard.writeText('ꥳ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ꥳ</button>
-                <button onclick="navigator.clipboard.writeText('ㅷ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ㅷ</button>
-                <button onclick="navigator.clipboard.writeText('ᄪ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᄪ</button>
-                <button onclick="navigator.clipboard.writeText('ᇥ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᇥ</button>
-                <button onclick="navigator.clipboard.writeText('ㅸ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ㅸ</button>
-                <button onclick="navigator.clipboard.writeText('ㅹ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ㅹ</button>
-                <button onclick="navigator.clipboard.writeText('ㅺ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ㅺ</button>
-                <button onclick="navigator.clipboard.writeText('ㅻ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ㅻ</button>
-                <button onclick="navigator.clipboard.writeText('ㅼ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ㅼ</button>
-                <button onclick="navigator.clipboard.writeText('ᄰ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᄰ</button>
-                <button onclick="navigator.clipboard.writeText('ᄱ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᄱ</button>
-                <button onclick="navigator.clipboard.writeText('ㅽ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ㅽ</button>
-                <button onclick="navigator.clipboard.writeText('ᄳ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᄳ</button>
-                <button onclick="navigator.clipboard.writeText('ퟫ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ퟫ</button>
-                <button onclick="navigator.clipboard.writeText('ퟬ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ퟬ</button>
-                <button onclick="navigator.clipboard.writeText('ퟭ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ퟭ</button>
-                <button onclick="navigator.clipboard.writeText('ꥵ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ꥵ</button>
-                <button onclick="navigator.clipboard.writeText('ᄴ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᄴ</button>
-                <button onclick="navigator.clipboard.writeText('ퟮ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ퟮ</button>
-                <button onclick="navigator.clipboard.writeText('ᄵ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᄵ</button>
-                <button onclick="navigator.clipboard.writeText('ㅾ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ㅾ</button>
-                <button onclick="navigator.clipboard.writeText('ᄷ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᄷ</button>
-                <button onclick="navigator.clipboard.writeText('ᄸ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᄸ</button>
-                <button onclick="navigator.clipboard.writeText('ᄹ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᄹ</button>
-                <button onclick="navigator.clipboard.writeText('ᄺ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᄺ</button>
-                <button onclick="navigator.clipboard.writeText('ᄻ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᄻ</button>
-                <button onclick="navigator.clipboard.writeText('ᄽ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᄽ</button>
-                <button onclick="navigator.clipboard.writeText('ᄿ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᄿ</button>
-                <button onclick="navigator.clipboard.writeText('ퟳ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ퟳ</button>
-                <button onclick="navigator.clipboard.writeText('ퟴ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ퟴ</button>
-                <button onclick="navigator.clipboard.writeText('ᅁ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᅁ</button>
-                <button onclick="navigator.clipboard.writeText('ᅂ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᅂ</button>
-                <button onclick="navigator.clipboard.writeText('ꥶ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ꥶ</button>
-                <button onclick="navigator.clipboard.writeText('ᅃ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᅃ</button>
-                <button onclick="navigator.clipboard.writeText('ᅄ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᅄ</button>
-                <button onclick="navigator.clipboard.writeText('ᅅ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᅅ</button>
-                <button onclick="navigator.clipboard.writeText('ᅆ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᅆ</button>
-                <button onclick="navigator.clipboard.writeText('ᅇ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᅇ</button>
-                <button onclick="navigator.clipboard.writeText('ᅈ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᅈ</button>
-                <button onclick="navigator.clipboard.writeText('ᅉ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᅉ</button>
-                <button onclick="navigator.clipboard.writeText('ᅊ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᅊ</button>
-                <button onclick="navigator.clipboard.writeText('ᅋ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᅋ</button>
-                <button onclick="navigator.clipboard.writeText('ꥷ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ꥷ</button>
-                <button onclick="navigator.clipboard.writeText('ᇬ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᇬ</button>
-                <button onclick="navigator.clipboard.writeText('ᇭ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᇭ</button>
-                <button onclick="navigator.clipboard.writeText('ퟵ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ퟵ</button>
-                <button onclick="navigator.clipboard.writeText('ㆂ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ㆂ</button>
-                <button onclick="navigator.clipboard.writeText('ㆃ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ㆃ</button>
-                <button onclick="navigator.clipboard.writeText('ᇮ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᇮ</button>
-                <button onclick="navigator.clipboard.writeText('ᇯ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᇯ</button>
-                <button onclick="navigator.clipboard.writeText('ퟶ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ퟶ</button>
-                <button onclick="navigator.clipboard.writeText('ퟷ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ퟷ</button>
-                <button onclick="navigator.clipboard.writeText('ퟸ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ퟸ</button>
-                <button onclick="navigator.clipboard.writeText('ᅍ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᅍ</button>
-                <button onclick="navigator.clipboard.writeText('ꥸ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ꥸ</button>
-                <button onclick="navigator.clipboard.writeText('ᅏ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᅏ</button>
-                <button onclick="navigator.clipboard.writeText('ᅑ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᅑ</button>
-                <button onclick="navigator.clipboard.writeText('ᅒ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᅒ</button>
-                <button onclick="navigator.clipboard.writeText('ᅓ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᅓ</button>
-                <button onclick="navigator.clipboard.writeText('ꥹ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ꥹ</button>
-                <button onclick="navigator.clipboard.writeText('ᅖ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᅖ</button>
-                <button onclick="navigator.clipboard.writeText('ퟺ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ퟺ</button>
-                <button onclick="navigator.clipboard.writeText('ퟻ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ퟻ</button>
-                <button onclick="navigator.clipboard.writeText('ꥺ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ꥺ</button>
-                <button onclick="navigator.clipboard.writeText('ㆄ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ㆄ</button>
-                <button onclick="navigator.clipboard.writeText('ᇵ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᇵ</button>
-                <button onclick="navigator.clipboard.writeText('ᇶ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᇶ</button>
-                <button onclick="navigator.clipboard.writeText('ᇷ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᇷ</button>
-                <button onclick="navigator.clipboard.writeText('ᇸ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᇸ</button>
-                <button onclick="navigator.clipboard.writeText('ꥻ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ꥻ</button>
-                <button onclick="navigator.clipboard.writeText('ㆅ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ㆅ</button>
-                <button onclick="navigator.clipboard.writeText('ꥼ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ꥼ</button>
-                <button onclick="navigator.clipboard.writeText('ㆍ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ㆍ</button>
-                <button onclick="navigator.clipboard.writeText(' 〮').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});"> 〮</button>
-                <button onclick="navigator.clipboard.writeText(' 〯').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});"> 〯</button>
-                <!--new-->
+                <div id="한글 자음">
+                </div>
                 <h2>한글 모음</h2>
-                <button onclick="navigator.clipboard.writeText('ㅏ').then(()=>{alert('복사 완료!'); console.log('copied');}).catch(err=>{alert('복사 실패'); console.log('copy err')});">ㅏ</button>
-                <button onclick="navigator.clipboard.writeText('ㅑ').then(()=>{alert('복사 완료!'); console.log('copied');}).catch(err=>{alert('복사 실패'); console.log('copy err')});">ㅑ</button>
-                <button onclick="navigator.clipboard.writeText('ㅓ').then(()=>{alert('복사 완료!'); console.log('copied');}).catch(err=>{alert('복사 실패'); console.log('copy err')});">ㅓ</button>
-                <button onclick="navigator.clipboard.writeText('ㅕ').then(()=>{alert('복사 완료!'); console.log('copied');}).catch(err=>{alert('복사 실패'); console.log('copy err')});">ㅕ</button>
-                <button onclick="navigator.clipboard.writeText('ㅗ').then(()=>{alert('복사 완료!'); console.log('copied');}).catch(err=>{alert('복사 실패'); console.log('copy err')});">ㅗ</button>
-                <button onclick="navigator.clipboard.writeText('ㅛ').then(()=>{alert('복사 완료!'); console.log('copied');}).catch(err=>{alert('복사 실패'); console.log('copy err')});">ㅛ</button>
-                <button onclick="navigator.clipboard.writeText('ㅜ').then(()=>{alert('복사 완료!'); console.log('copied');}).catch(err=>{alert('복사 실패'); console.log('copy err')});">ㅜ</button>
-                <button onclick="navigator.clipboard.writeText('ㅠ').then(()=>{alert('복사 완료!'); console.log('copied');}).catch(err=>{alert('복사 실패'); console.log('copy err')});">ㅠ</button>
-                <button onclick="navigator.clipboard.writeText('ㅡ').then(()=>{alert('복사 완료!'); console.log('copied');}).catch(err=>{alert('복사 실패'); console.log('copy err')});">ㅡ</button>
-                <button onclick="navigator.clipboard.writeText('ㅣ').then(()=>{alert('복사 완료!'); console.log('copied');}).catch(err=>{alert('복사 실패'); console.log('copy err')});">ㅣ</button>
-                <button onclick="navigator.clipboard.writeText('ㅐ').then(()=>{alert('복사 완료!'); console.log('copied');}).catch(err=>{alert('복사 실패'); console.log('copy err')});">ㅐ</button>
-                <button onclick="navigator.clipboard.writeText('ㅒ').then(()=>{alert('복사 완료!'); console.log('copied');}).catch(err=>{alert('복사 실패'); console.log('copy err')});">ㅒ</button>
-                <button onclick="navigator.clipboard.writeText('ㅔ').then(()=>{alert('복사 완료!'); console.log('copied');}).catch(err=>{alert('복사 실패'); console.log('copy err')});">ㅔ</button>
-                <button onclick="navigator.clipboard.writeText('ㅖ').then(()=>{alert('복사 완료!'); console.log('copied');}).catch(err=>{alert('복사 실패'); console.log('copy err')});">ㅖ</button>
-                <button onclick="navigator.clipboard.writeText('ㅘ').then(()=>{alert('복사 완료!'); console.log('copied');}).catch(err=>{alert('복사 실패'); console.log('copy err')});">ㅘ</button>
-                <button onclick="navigator.clipboard.writeText('ㅙ').then(()=>{alert('복사 완료!'); console.log('copied');}).catch(err=>{alert('복사 실패'); console.log('copy err')});">ㅙ</button>
-                <button onclick="navigator.clipboard.writeText('ㅚ').then(()=>{alert('복사 완료!'); console.log('copied');}).catch(err=>{alert('복사 실패'); console.log('copy err')});">ㅚ</button>
-                <button onclick="navigator.clipboard.writeText('ㅝ').then(()=>{alert('복사 완료!'); console.log('copied');}).catch(err=>{alert('복사 실패'); console.log('copy err')});">ㅝ</button>
-                <button onclick="navigator.clipboard.writeText('ㅞ').then(()=>{alert('복사 완료!'); console.log('copied');}).catch(err=>{alert('복사 실패'); console.log('copy err')});">ㅞ</button>
-                <button onclick="navigator.clipboard.writeText('ㅟ').then(()=>{alert('복사 완료!'); console.log('copied');}).catch(err=>{alert('복사 실패'); console.log('copy err')});">ㅟ</button>
-                <button onclick="navigator.clipboard.writeText('ㅢ').then(()=>{alert('복사 완료!'); console.log('copied');}).catch(err=>{alert('복사 실패'); console.log('copy err')});">ㅢ</button>
-                <button onclick="navigator.clipboard.writeText('ᅶ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᅶ</button>
-                <button onclick="navigator.clipboard.writeText('ᅷ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᅷ</button>
-                <button onclick="navigator.clipboard.writeText('ᆣ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᆣ</button>
-                <button onclick="navigator.clipboard.writeText('ᅸ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᅸ</button>
-                <button onclick="navigator.clipboard.writeText('ᅹ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᅹ</button>
-                <button onclick="navigator.clipboard.writeText('ᆤ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᆤ</button>
-                <button onclick="navigator.clipboard.writeText('ᅺ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᅺ</button>
-                <button onclick="navigator.clipboard.writeText('ᅻ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᅻ</button>
-                <button onclick="navigator.clipboard.writeText('ᅼ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᅼ</button>
-                <button onclick="navigator.clipboard.writeText('ᆥ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᆥ</button>
-                <button onclick="navigator.clipboard.writeText('ᅽ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᅽ</button>
-                <button onclick="navigator.clipboard.writeText('ᅾ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᅾ</button>
-                <button onclick="navigator.clipboard.writeText('ᆦ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᆦ</button>
-                <button onclick="navigator.clipboard.writeText('ᆧ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᆧ</button>
-                <button onclick="navigator.clipboard.writeText('ᅿ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᅿ</button>
-                <button onclick="navigator.clipboard.writeText('ᆀ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᆀ</button>
-                <button onclick="navigator.clipboard.writeText('ힰ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ힰ</button>
-                <button onclick="navigator.clipboard.writeText('ᆁ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᆁ</button>
-                <button onclick="navigator.clipboard.writeText('ᆂ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᆂ</button>
-                <button onclick="navigator.clipboard.writeText('ힱ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ힱ</button>
-                <button onclick="navigator.clipboard.writeText('ᆃ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᆃ</button>
-                <button onclick="navigator.clipboard.writeText('ힲ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ힲ</button>
-                <button onclick="navigator.clipboard.writeText('ힳ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ힳ</button>
-                <button onclick="navigator.clipboard.writeText('ㆇ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ㆇ</button>
-                <button onclick="navigator.clipboard.writeText('ㆈ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ㆈ</button>
-                <button onclick="navigator.clipboard.writeText('ힴ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ힴ</button>
-                <button onclick="navigator.clipboard.writeText('ᆆ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᆆ</button>
-                <button onclick="navigator.clipboard.writeText('ᆇ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᆇ</button>
-                <button onclick="navigator.clipboard.writeText('ㆉ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ㆉ</button>
-                <button onclick="navigator.clipboard.writeText('ᆉ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᆉ</button>
-                <button onclick="navigator.clipboard.writeText('ᆊ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᆊ</button>
-                <button onclick="navigator.clipboard.writeText('ᆋ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᆋ</button>
-                <button onclick="navigator.clipboard.writeText('ힵ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ힵ</button>
-                <button onclick="navigator.clipboard.writeText('ᆌ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᆌ</button>
-                <button onclick="navigator.clipboard.writeText('ᆍ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᆍ</button>
-                <button onclick="navigator.clipboard.writeText('ힶ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ힶ</button>
-                <button onclick="navigator.clipboard.writeText('ᆎ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᆎ</button>
-                <button onclick="navigator.clipboard.writeText('ힷ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ힷ</button>
-                <button onclick="navigator.clipboard.writeText('ᆏ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᆏ</button>
-                <button onclick="navigator.clipboard.writeText('ᆐ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᆐ</button>
-                <button onclick="navigator.clipboard.writeText('ㆊ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ㆊ</button>
-                <button onclick="navigator.clipboard.writeText('ㆋ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ㆋ</button>
-                <button onclick="navigator.clipboard.writeText('ힸ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ힸ</button>
-                <button onclick="navigator.clipboard.writeText('ᆓ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᆓ</button>
-                <button onclick="navigator.clipboard.writeText('ㆌ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ㆌ</button>
-                <button onclick="navigator.clipboard.writeText('ힹ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ힹ</button>
-                <button onclick="navigator.clipboard.writeText('ힺ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ힺ</button>
-                <button onclick="navigator.clipboard.writeText('ힻ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ힻ</button>
-                <button onclick="navigator.clipboard.writeText('ힼ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ힼ</button>
-                <button onclick="navigator.clipboard.writeText('ᆕ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᆕ</button>
-                <button onclick="navigator.clipboard.writeText('ᆖ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᆖ</button>
-                <button onclick="navigator.clipboard.writeText('ᆗ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᆗ</button>
-                <button onclick="navigator.clipboard.writeText('ᆘ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᆘ</button>
-                <button onclick="navigator.clipboard.writeText('ᆙ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᆙ</button>
-                <button onclick="navigator.clipboard.writeText('ힽ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ힽ</button>
-                <button onclick="navigator.clipboard.writeText('ힾ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ힾ</button>
-                <button onclick="navigator.clipboard.writeText('ힿ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ힿ</button>
-                <button onclick="navigator.clipboard.writeText('ퟀ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ퟀ</button>
-                <button onclick="navigator.clipboard.writeText('ᆚ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᆚ</button>
-                <button onclick="navigator.clipboard.writeText('ퟁ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ퟁ</button>
-                <button onclick="navigator.clipboard.writeText('ퟂ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ퟂ</button>
-                <button onclick="navigator.clipboard.writeText('ᆛ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᆛ</button>
-                <button onclick="navigator.clipboard.writeText('ퟃ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ퟃ</button>
-                <button onclick="navigator.clipboard.writeText('ᆜ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᆜ</button>
-                <button onclick="navigator.clipboard.writeText('ퟄ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ퟄ</button>
-                <button onclick="navigator.clipboard.writeText('ᆝ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᆝ</button>
-                <button onclick="navigator.clipboard.writeText('ퟅ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ퟅ</button>
-                <button onclick="navigator.clipboard.writeText('ᆟ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᆟ</button>
-                <button onclick="navigator.clipboard.writeText('ퟆ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ퟆ</button>
-                <button onclick="navigator.clipboard.writeText('ᆠ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᆠ</button>
-                <button onclick="navigator.clipboard.writeText('ㆎ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ㆎ</button>
-                <button onclick="navigator.clipboard.writeText('ᆢ').then(() => {alert('복사 완료!'); console.log('copied');}).catch(err => {alert('복사 실패'); console.log('copy err')});">ᆢ</button>
-                <!--new-->
+                <div id="한글 모음">
+                </div>
                 <h2>자바어</h2>
-                <button onclick="navigator.clipboard.writeText('ꦀ').then(()=>{alert('복사 완료!');console.log('copied');}).catch(err=>{alert('복사 실패');console.log('copy err');});">ꦀ</button>
-                <button onclick="navigator.clipboard.writeText('ꦁ').then(()=>{alert('복사 완료!');console.log('copied');}).catch(err=>{alert('복사 실패');console.log('copy err');});">ꦁ</button>
-                <button onclick="navigator.clipboard.writeText('ꦂ').then(()=>{alert('복사 완료!');console.log('copied');}).catch(err=>{alert('복사 실패');console.log('copy err');});">ꦂ</button>
-                <button onclick="navigator.clipboard.writeText('ꦃ').then(()=>{alert('복사 완료!');console.log('copied');}).catch(err=>{alert('복사 실패');console.log('copy err');});">ꦃ</button>
-                <button onclick="navigator.clipboard.writeText('ꦄ').then(()=>{alert('복사 완료!');console.log('copied');}).catch(err=>{alert('복사 실패');console.log('copy err');});">ꦄ</button>
-                <button onclick="navigator.clipboard.writeText('ꦅ').then(()=>{alert('복사 완료!');console.log('copied');}).catch(err=>{alert('복사 실패');console.log('copy err');});">ꦅ</button>
-                <button onclick="navigator.clipboard.writeText('ꦆ').then(()=>{alert('복사 완료!');console.log('copied');}).catch(err=>{alert('복사 실패');console.log('copy err');});">ꦆ</button>
-                <button onclick="navigator.clipboard.writeText('ꦇ').then(()=>{alert('복사 완료!');console.log('copied');}).catch(err=>{alert('복사 실패');console.log('copy err');});">ꦇ</button>
-                <button onclick="navigator.clipboard.writeText('ꦈ').then(()=>{alert('복사 완료!');console.log('copied');}).catch(err=>{alert('복사 실패');console.log('copy err');});">ꦈ</button>
-                <button onclick="navigator.clipboard.writeText('ꦉ').then(()=>{alert('복사 완료!');console.log('copied');}).catch(err=>{alert('복사 실패');console.log('copy err');});">ꦉ</button>
-                <button onclick="navigator.clipboard.writeText('ꦊ').then(()=>{alert('복사 완료!');console.log('copied');}).catch(err=>{alert('복사 실패');console.log('copy err');});">ꦊ</button>
-                <button onclick="navigator.clipboard.writeText('ꦋ').then(()=>{alert('복사 완료!');console.log('copied');}).catch(err=>{alert('복사 실패');console.log('copy err');});">ꦋ</button>
-                <button onclick="navigator.clipboard.writeText('ꦌ').then(()=>{alert('복사 완료!');console.log('copied');}).catch(err=>{alert('복사 실패');console.log('copy err');});">ꦌ</button>
-                <button onclick="navigator.clipboard.writeText('ꦍ').then(()=>{alert('복사 완료!');console.log('copied');}).catch(err=>{alert('복사 실패');console.log('copy err');});">ꦍ</button>
-                <button onclick="navigator.clipboard.writeText('ꦎ').then(()=>{alert('복사 완료!');console.log('copied');}).catch(err=>{alert('복사 실패');console.log('copy err');});">ꦎ</button>
-                <button onclick="navigator.clipboard.writeText('ꦏ').then(()=>{alert('복사 완료!');console.log('copied');}).catch(err=>{alert('복사 실패');console.log('copy err');});">ꦏ</button>
-                <button onclick="navigator.clipboard.writeText('ꦐ').then(()=>{alert('복사 완료!');console.log('copied');}).catch(err=>{alert('복사 실패');console.log('copy err');});">ꦐ</button>
-                <button onclick="navigator.clipboard.writeText('ꦑ').then(()=>{alert('복사 완료!');console.log('copied');}).catch(err=>{alert('복사 실패');console.log('copy err');});">ꦑ</button>
-                <button onclick="navigator.clipboard.writeText('ꦒ').then(()=>{alert('복사 완료!');console.log('copied');}).catch(err=>{alert('복사 실패');console.log('copy err');});">ꦒ</button>
-                <button onclick="navigator.clipboard.writeText('ꦓ').then(()=>{alert('복사 완료!');console.log('copied');}).catch(err=>{alert('복사 실패');console.log('copy err');});">ꦓ</button>
-                <button onclick="navigator.clipboard.writeText('ꦔ').then(()=>{alert('복사 완료!');console.log('copied');}).catch(err=>{alert('복사 실패');console.log('copy err');});">ꦔ</button>
-                <button onclick="navigator.clipboard.writeText('ꦕ').then(()=>{alert('복사 완료!');console.log('copied');}).catch(err=>{alert('복사 실패');console.log('copy err');});">ꦕ</button>
-                <button onclick="navigator.clipboard.writeText('ꦖ').then(()=>{alert('복사 완료!');console.log('copied');}).catch(err=>{alert('복사 실패');console.log('copy err');});">ꦖ</button>
-                <button onclick="navigator.clipboard.writeText('ꦗ').then(()=>{alert('복사 완료!');console.log('copied');}).catch(err=>{alert('복사 실패');console.log('copy err');});">ꦗ</button>
-                <button onclick="navigator.clipboard.writeText('ꦘ').then(()=>{alert('복사 완료!');console.log('copied');}).catch(err=>{alert('복사 실패');console.log('copy err');});">ꦘ</button>
-                <button onclick="navigator.clipboard.writeText('ꦙ').then(()=>{alert('복사 완료!');console.log('copied');}).catch(err=>{alert('복사 실패');console.log('copy err');});">ꦙ</button>
-                <button onclick="navigator.clipboard.writeText('ꦚ').then(()=>{alert('복사 완료!');console.log('copied');}).catch(err=>{alert('복사 실패');console.log('copy err');});">ꦚ</button>
-                <button onclick="navigator.clipboard.writeText('ꦛ').then(()=>{alert('복사 완료!');console.log('copied');}).catch(err=>{alert('복사 실패');console.log('copy err');});">ꦛ</button>
-                <button onclick="navigator.clipboard.writeText('ꦜ').then(()=>{alert('복사 완료!');console.log('copied');}).catch(err=>{alert('복사 실패');console.log('copy err');});">ꦜ</button>
-                <button onclick="navigator.clipboard.writeText('ꦝ').then(()=>{alert('복사 완료!');console.log('copied');}).catch(err=>{alert('복사 실패');console.log('copy err');});">ꦝ</button>
-                <button onclick="navigator.clipboard.writeText('ꦞ').then(()=>{alert('복사 완료!');console.log('copied');}).catch(err=>{alert('복사 실패');console.log('copy err');});">ꦞ</button>
-                <button onclick="navigator.clipboard.writeText('ꦟ').then(()=>{alert('복사 완료!');console.log('copied');}).catch(err=>{alert('복사 실패');console.log('copy err');});">ꦟ</button>
-                <button onclick="navigator.clipboard.writeText('ꦠ').then(()=>{alert('복사 완료!');console.log('copied');}).catch(err=>{alert('복사 실패');console.log('copy err');});">ꦠ</button>
-                <button onclick="navigator.clipboard.writeText('ꦡ').then(()=>{alert('복사 완료!');console.log('copied');}).catch(err=>{alert('복사 실패');console.log('copy err');});">ꦡ</button>
-                <button onclick="navigator.clipboard.writeText('ꦢ').then(()=>{alert('복사 완료!');console.log('copied');}).catch(err=>{alert('복사 실패');console.log('copy err');});">ꦢ</button>
-                <button onclick="navigator.clipboard.writeText('ꦣ').then(()=>{alert('복사 완료!');console.log('copied');}).catch(err=>{alert('복사 실패');console.log('copy err');});">ꦣ</button>
-                <button onclick="navigator.clipboard.writeText('ꦤ').then(()=>{alert('복사 완료!');console.log('copied');}).catch(err=>{alert('복사 실패');console.log('copy err');});">ꦤ</button>
-                <button onclick="navigator.clipboard.writeText('ꦥ').then(()=>{alert('복사 완료!');console.log('copied');}).catch(err=>{alert('복사 실패');console.log('copy err');});">ꦥ</button>
-                <button onclick="navigator.clipboard.writeText('ꦦ').then(()=>{alert('복사 완료!');console.log('copied');}).catch(err=>{alert('복사 실패');console.log('copy err');});">ꦦ</button>
-                <button onclick="navigator.clipboard.writeText('ꦧ').then(()=>{alert('복사 완료!');console.log('copied');}).catch(err=>{alert('복사 실패');console.log('copy err');});">ꦧ</button>
-                <button onclick="navigator.clipboard.writeText('ꦨ').then(()=>{alert('복사 완료!');console.log('copied');}).catch(err=>{alert('복사 실패');console.log('copy err');});">ꦨ</button>
-                <button onclick="navigator.clipboard.writeText('ꦩ').then(()=>{alert('복사 완료!');console.log('copied');}).catch(err=>{alert('복사 실패');console.log('copy err');});">ꦩ</button>
-                <button onclick="navigator.clipboard.writeText('ꦪ').then(()=>{alert('복사 완료!');console.log('copied');}).catch(err=>{alert('복사 실패');console.log('copy err');});">ꦪ</button>
-                <button onclick="navigator.clipboard.writeText('ꦫ').then(()=>{alert('복사 완료!');console.log('copied');}).catch(err=>{alert('복사 실패');console.log('copy err');});">ꦫ</button>
-                <button onclick="navigator.clipboard.writeText('ꦬ').then(()=>{alert('복사 완료!');console.log('copied');}).catch(err=>{alert('복사 실패');console.log('copy err');});">ꦬ</button>
-                <button onclick="navigator.clipboard.writeText('ꦭ').then(()=>{alert('복사 완료!');console.log('copied');}).catch(err=>{alert('복사 실패');console.log('copy err');});">ꦭ</button>
-                <button onclick="navigator.clipboard.writeText('ꦮ').then(()=>{alert('복사 완료!');console.log('copied');}).catch(err=>{alert('복사 실패');console.log('copy err');});">ꦮ</button>
-                <button onclick="navigator.clipboard.writeText('ꦯ').then(()=>{alert('복사 완료!');console.log('copied');}).catch(err=>{alert('복사 실패');console.log('copy err');});">ꦯ</button>
-                <button onclick="navigator.clipboard.writeText('ꦰ').then(()=>{alert('복사 완료!');console.log('copied');}).catch(err=>{alert('복사 실패');console.log('copy err');});">ꦰ</button>
-                <button onclick="navigator.clipboard.writeText('ꦱ').then(()=>{alert('복사 완료!');console.log('copied');}).catch(err=>{alert('복사 실패');console.log('copy err');});">ꦱ</button>
-                <button onclick="navigator.clipboard.writeText('ꦲ').then(()=>{alert('복사 완료!');console.log('copied');}).catch(err=>{alert('복사 실패');console.log('copy err');});">ꦲ</button>
-                <button onclick="navigator.clipboard.writeText('꦳').then(()=>{alert('복사 완료!');console.log('copied');}).catch(err=>{alert('복사 실패');console.log('copy err');});">꦳</button>
-                <button onclick="navigator.clipboard.writeText('ꦴ').then(()=>{alert('복사 완료!');console.log('copied');}).catch(err=>{alert('복사 실패');console.log('copy err');});">ꦴ</button>
-                <button onclick="navigator.clipboard.writeText('ꦵ').then(()=>{alert('복사 완료!');console.log('copied');}).catch(err=>{alert('복사 실패');console.log('copy err');});">ꦵ</button>
-                <button onclick="navigator.clipboard.writeText('ꦶ').then(()=>{alert('복사 완료!');console.log('copied');}).catch(err=>{alert('복사 실패');console.log('copy err');});">ꦶ</button>
-                <button onclick="navigator.clipboard.writeText('ꦷ').then(()=>{alert('복사 완료!');console.log('copied');}).catch(err=>{alert('복사 실패');console.log('copy err');});">ꦷ</button>
-                <button onclick="navigator.clipboard.writeText('ꦸ').then(()=>{alert('복사 완료!');console.log('copied');}).catch(err=>{alert('복사 실패');console.log('copy err');});">ꦸ</button>
-                <button onclick="navigator.clipboard.writeText('ꦹ').then(()=>{alert('복사 완료!');console.log('copied');}).catch(err=>{alert('복사 실패');console.log('copy err');});">ꦹ</button>
-                <button onclick="navigator.clipboard.writeText('ꦺ').then(()=>{alert('복사 완료!');console.log('copied');}).catch(err=>{alert('복사 실패');console.log('copy err');});">ꦺ</button>
-                <button onclick="navigator.clipboard.writeText('ꦻ').then(()=>{alert('복사 완료!');console.log('copied');}).catch(err=>{alert('복사 실패');console.log('copy err');});">ꦻ</button>
-                <button onclick="navigator.clipboard.writeText('ꦼ').then(()=>{alert('복사 완료!');console.log('copied');}).catch(err=>{alert('복사 실패');console.log('copy err');});">ꦼ</button>
-                <button onclick="navigator.clipboard.writeText('ꦽ').then(()=>{alert('복사 완료!');console.log('copied');}).catch(err=>{alert('복사 실패');console.log('copy err');});">ꦽ</button>
-                <button onclick="navigator.clipboard.writeText('ꦾ').then(()=>{alert('복사 완료!');console.log('copied');}).catch(err=>{alert('복사 실패');console.log('copy err');});">ꦾ</button>
-                <button onclick="navigator.clipboard.writeText('ꦿ').then(()=>{alert('복사 완료!');console.log('copied');}).catch(err=>{alert('복사 실패');console.log('copy err');});">ꦿ</button>
-                <button onclick="navigator.clipboard.writeText('꧀').then(()=>{alert('복사 완료!');console.log('copied');}).catch(err=>{alert('복사 실패');console.log('copy err');});">꧀</button>
-                <button onclick="navigator.clipboard.writeText('꧁').then(()=>{alert('복사 완료!');console.log('copied');}).catch(err=>{alert('복사 실패');console.log('copy err');});">꧁</button>
-                <button onclick="navigator.clipboard.writeText('꧂').then(()=>{alert('복사 완료!');console.log('copied');}).catch(err=>{alert('복사 실패');console.log('copy err');});">꧂</button>
-                <button onclick="navigator.clipboard.writeText('꧃').then(()=>{alert('복사 완료!');console.log('copied');}).catch(err=>{alert('복사 실패');console.log('copy err');});">꧃</button>
-                <button onclick="navigator.clipboard.writeText('꧄').then(()=>{alert('복사 완료!');console.log('copied');}).catch(err=>{alert('복사 실패');console.log('copy err');});">꧄</button>
-                <button onclick="navigator.clipboard.writeText('꧅').then(()=>{alert('복사 완료!');console.log('copied');}).catch(err=>{alert('복사 실패');console.log('copy err');});">꧅</button>
-                <button onclick="navigator.clipboard.writeText('꧆').then(()=>{alert('복사 완료!');console.log('copied');}).catch(err=>{alert('복사 실패');console.log('copy err');});">꧆</button>
-                <button onclick="navigator.clipboard.writeText('꧇').then(()=>{alert('복사 완료!');console.log('copied');}).catch(err=>{alert('복사 실패');console.log('copy err');});">꧇</button>
-                <button onclick="navigator.clipboard.writeText('꧈').then(()=>{alert('복사 완료!');console.log('copied');}).catch(err=>{alert('복사 실패');console.log('copy err');});">꧈</button>
-                <button onclick="navigator.clipboard.writeText('꧉').then(()=>{alert('복사 완료!');console.log('copied');}).catch(err=>{alert('복사 실패');console.log('copy err');});">꧉</button>
-                <button onclick="navigator.clipboard.writeText('꧊').then(()=>{alert('복사 완료!');console.log('copied');}).catch(err=>{alert('복사 실패');console.log('copy err');});">꧊</button>
-                <button onclick="navigator.clipboard.writeText('꧋').then(()=>{alert('복사 완료!');console.log('copied');}).catch(err=>{alert('복사 실패');console.log('copy err');});">꧋</button>
-                <!--new-->
-                
+                <div id="자바어">
+                </div>
+                <script>
+                    const chars={
+                    "한글 자음":["ㄱ","ㄴ","ㄷ","ㄹ","ㅁ","ㅂ","ㅅ","ㅇ","ㅈ","ㅊ","ㅋ","ㅌ","ㅍ","ㅎ","ᇺ","ᅚ","ᇃ","ᇻ","ᇄ","ᇼ","ᇽ","ᇾ","ᄓ","ㅥ","ㅦ","ퟋ","ᄖ","ㅧ","ㅨ","ퟌ","ᇉ","ᄗ","ퟎ","ᇋ","ꥠ","ꥡ","ꥢ","ퟑ","ꥣ","ퟓ","ퟔ","ꥥ","ㅩ","ퟖ","ᄘ","ㅪ","ꥧ","ᇏ","ᄙ","ퟗ","ᇑ","ᇒ","ퟘ","ퟙ","ꥪ","ㅫ","ퟚ","ᇔ","ᇕ","ᇖ","ㅬ","ퟛ","ꥭ","ᇘ","ㅭ","ퟜ","ᄛ","ᇚ","ퟞ","ퟟ","ꥰ","ᇛ","ퟠ","ㅮ","ퟡ","ㅯ","ᇞ","ㅰ","ퟢ","ᇠ","ᇡ","ㅱ","ㅲ","ᄟ","ㅳ","ᇣ","ퟤ","ퟥ","ㅴ","ㅵ","ᄤ","ᄥ","ᄦ","ꥲ","ㅶ","ᄨ","ꥳ","ㅷ","ᄪ","ᇥ","ㅸ","ㅹ","ㅺ","ㅻ","ㅼ","ᄰ","ᄱ","ㅽ","ᄳ","ퟫ","ퟬ","ퟭ","ꥵ","ᄴ","ퟮ","ᄵ","ㅾ","ᄷ","ᄸ","ᄹ","ᄺ","ᄻ","ᄽ","ᄿ","ퟳ","ퟴ","ᅁ","ᅂ","ꥶ","ᅃ","ᅄ","ᅅ","ᅆ","ᅇ","ᅈ","ᅉ","ᅊ","ᅋ","ꥷ","ᇬ","ᇭ","ퟵ","ㆂ","ㆃ","ᇮ","ᇯ","ퟶ","ퟷ","ퟸ","ᅍ","ꥸ","ᅏ","ᅑ","ᅒ","ᅓ","ꥹ","ᅖ","ퟺ","ퟻ","ꥺ","ㆄ","ᇵ","ᇶ","ᇷ","ᇸ","ꥻ","ㆅ","ꥼ"],
+                    "한글 모음":["ᅶ","ᅷ","ᆣ","ᅸ","ᅹ","ᆤ","ᅺ","ᅻ","ᅼ","ᆥ","ᅽ","ᅾ","ᆦ","ᆧ","ᅿ","ᆀ","ힰ","ᆁ","ᆂ","ힱ","ᆃ","ힲ","ힳ","ㆇ","ㆈ","ힴ","ᆆ","ᆇ","ㆉ","ᆉ","ᆊ","ᆋ","ힵ","ᆌ","ᆍ","ힶ","ᆎ","ힷ","ᆏ","ᆐ","ㆊ","ㆋ","ힸ","ᆓ","ㆌ","ힹ","ힺ","ힻ","ힼ","ᆕ","ᆖ","ᆗ","ᆘ","ᆙ","ힽ","ힾ","ힿ","ퟀ","ᆚ","ퟁ","ퟂ","ᆛ","ퟃ","ᆜ","ퟄ","ᆝ","ퟅ","ᆟ","ퟆ","ᆠ","ㆎ","ᆢ"],
+                    "자바어":["ꦀ","ꦁ","ꦂ","ꦃ","ꦄ","ꦅ","ꦆ","ꦇ","ꦈ","ꦉ","ꦊ","ꦋ","ꦌ","ꦍ","ꦎ","ꦏ","ꦐ","ꦑ","ꦒ","ꦓ","ꦔ","ꦕ","ꦖ","ꦗ","ꦘ","ꦙ","ꦚ","ꦛ","ꦜ","ꦝ","ꦞ","ꦟ","ꦠ","ꦡ","ꦢ","ꦣ","ꦤ","ꦥ","ꦦ","ꦧ","ꦨ","ꦩ","ꦪ","ꦫ","ꦬ","ꦭ","ꦮ","ꦯ","ꦰ","ꦱ","ꦲ","꦳","ꦴ","ꦵ","ꦶ","ꦷ","ꦸ","ꦹ","ꦺ","ꦻ","ꦼ","ꦽ","ꦾ","ꦿ","꧀","꧁","꧂","꧃","꧄","꧅","꧆","꧇","꧈","꧉","꧊","꧋","꧌","꧍","ꧏ"]
+                    };
+                    for(const k in chars){
+                        const box=document.getElementById(k);
+                        chars[k].forEach(ch=>{
+                        const b=document.createElement("button");
+                        b.textContent=ch;
+                        b.onclick=()=>navigator.clipboard.writeText(ch).then(()=>alert("복사 완료")).catch(()=>alert("복사 실패"));
+                        box.appendChild(b);
+                        });
+                    }
+                </script>
             </div>
         </h1>
     </div>
