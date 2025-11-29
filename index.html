@@ -121,7 +121,7 @@
                         chars[k].forEach(ch=>{
                         const b=document.createElement("button");
                         b.textContent=ch;
-                        b.onclick=()=>navigator.clipboard.writeText(ch).then(()=>alert("copied!")).catch(()=>alert("copy error"));
+                        b.onclick=()=>navigator.clipboard.writeText(ch).then(()=>alert(`'${ch}' copied!`)).catch(()=>alert("copy error"));
                         box.appendChild(b);
                         });
                     }
